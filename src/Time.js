@@ -10,6 +10,6 @@ export function TellingTime() {
   document.getElementById("demo3").innerHTML = inputDate;
 
 
-  document.getElementById("demo4").innerHTML = stringDate.toDateString();
+  // document.getElementById("demo4").innerHTML = stringDate.toDateString();
   //var dob = $("#born").val();
 }

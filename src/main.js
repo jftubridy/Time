@@ -15,7 +15,7 @@ $(document).ready(function() {
     var day = days[date.getDay()];
     console.log(day);
 
-    var stringDate = new Date();
+    // var stringDate = new Date();
 
     $("#demo3").text(date);
   });
