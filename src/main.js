@@ -14,6 +14,9 @@ $(document).ready(function() {
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var day = days[date.getDay()];
     console.log(day);
+
+    var stringDate = new Date();
+
     $("#demo3").text(date);
   });
 });
