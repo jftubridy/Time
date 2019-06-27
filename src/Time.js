@@ -2,7 +2,8 @@
 export function TellingTime() {
   var d = new Date();
   var n = d.getHours();
-  var stringDate = new Date();
+  var userDateString;
+  // var stringDate = new Date();
   document.getElementById("demo").innerHTML = d;
   document.getElementById("demo2").innerHTML = n;
 
